@@ -24,7 +24,7 @@
      *
      */
     angular
-      .module('boilerplate')
+      .module('rowan')
       .factory('LocalStorage', [
         '$window', '$rootScope', LocalStorageService
       ]);
