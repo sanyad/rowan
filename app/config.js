@@ -9,7 +9,7 @@
 	 * CONSTANTS.API_URL
 	 */
   angular
-  	.module('boilerplate')
+  	.module('rowan')
     .constant('CONSTANTS', {
       'API_URL': 'http://www.yourAPIurl.com/'
     });

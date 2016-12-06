@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-csp="" ng-app="boilerplate"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-csp="" ng-app="rowan"> <!--<![endif]-->
 
 	<head>
 
@@ -33,16 +33,15 @@
 	</head>
 
 	<body class="main-wrapper">
-	
 		<!--[if lt IE 8]>
 		    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 
 		<!-- Navigation -->
-		<main-nav></main-nav>
+		<data-main-nav></data-main-nav>
 
 		<!-- Main view for templates -->
-		<div data-ng-view="" class="container"></div>
+		<div  class="container" data-ng-view></div>
 
 	</body>
 
@@ -62,7 +61,10 @@
 	<!-- build:angularlibs js/angularlibs.js -->
 	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
 	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="bower_components/angular-animate/angular-animate.js"></script>
+	<script type="text/javascript" src="bower_components/angular-touch/angular-touch.js"></script>
 	<script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+	<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
 	<!-- endbuild -->
 
 	<!-- Angular components -->
@@ -85,7 +87,7 @@
 	<!-- templates from $templateCache -->
 	<!-- build:templates -->
 	<!-- endbuild -->
-	
+
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<script>
 	    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
